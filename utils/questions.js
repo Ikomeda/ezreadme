@@ -41,7 +41,11 @@ const questions = [
         type: `list`,
         name: `license`,
         question: `Which license are you using?`,
-        validate: (value) => {if(value){return true}else{return `Please choose a license`}}
+        choices: [
+            `Unlicense`,
+            `MIT`,
+            `Eclipse`,
+        ]
     },
     {
         type: `input`,

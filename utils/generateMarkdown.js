@@ -28,21 +28,21 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributions](#contributions)
-  * [Test Instructions](#tests)
+  * [Test Instructions](#test-instructions)
   * [Contact](#contact)
-  <a name='installation'></a>
+
   ## Installation
   ${installation}
-  <a name='usage'></a>
+
   ## Usage
   ${usage}
-  <a name='contributions'></a>
+
   ## Contributions
   ${contribution}
-  <a name='tests'></a>
+
   ## Test Instructions
   ${tests}
-  <a name='contact'></a>
+
   ## Contact
   * GitHub: https://github.com/${github}/
   * Email: ${email}`;
