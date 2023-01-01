@@ -1,6 +1,6 @@
 
 const questions = [
-    // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+
     {
         type: `input`,
         name: `title`,
