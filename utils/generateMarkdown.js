@@ -14,7 +14,6 @@ function renderLicense(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const { title, description, installation, usage, license, contribution, tests, github, email } = data;
   const readmeTemplate = `
@@ -30,19 +29,14 @@ function generateMarkdown(data) {
   * [Contributions](#contributions)
   * [Test Instructions](#test-instructions)
   * [Contact](#contact)
-
   ## Installation
   ${installation}
-
   ## Usage
   ${usage}
-
   ## Contributions
   ${contribution}
-
   ## Test Instructions
   ${tests}
-
   ## Contact
   * GitHub: https://github.com/${github}/
   * Email: ${email}`;
